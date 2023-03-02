@@ -3,7 +3,9 @@ package hientester.com.testcases;
 import hientester.com.common.BaseTest;
 import hientester.com.drivers.DriverManager;
 import hientester.com.helpers.PropertiesHelper;
+import hientester.com.keywords.WebUI;
 import hientester.com.pages.LoginPage;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
@@ -17,7 +19,9 @@ public class LoginTest extends BaseTest {
         loginPage = new LoginPage();
 
         //Gọi hàm "login" từ LoginPage để dùng
-        loginPage.login(PropertiesHelper.getValue("email"),"password");
+        loginPage.login(PropertiesHelper.getValue("email"), PropertiesHelper.getValue("password"));
+        PropertiesHelper.setFile("src/test/resources/configs/data.properties");
+        PropertiesHelper.setValue("label", WebUI.getTextElement(By.xpath("//span[normalize-space()='Invoice overview']")));
     }
 
     @Test

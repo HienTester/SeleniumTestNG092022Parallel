@@ -6,9 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SeleniumTestNG092022Parallel" />
-        <module name="SeleniumTestNG092022POM" />
-        <module name="SeleniumMaven092022Parallel" />
+        <module name="SeleniumTestNG092022" />
       </profile>
     </annotationProcessing>
   </component>
