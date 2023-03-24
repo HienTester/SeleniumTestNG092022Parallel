@@ -2,6 +2,11 @@
 
 <suite name="Suite Login Test" verbose="1">
 
+    <listeners>
+        <listener class-name="hientester.com.listeners.TestListener"/>
+    </listeners>
+
+
     <test name="Login Test on edge" parallel="methods">
         <parameter name="browser" value="edge"/>
         <classes>

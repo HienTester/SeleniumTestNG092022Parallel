@@ -1,6 +1,7 @@
 package hientester.com.testcases;
 
 import hientester.com.common.BaseTest;
+import hientester.com.helpers.CaptureHelper;
 import hientester.com.pages.customers.AddNewCustomerPage;
 import hientester.com.pages.customers.CustomerDetailPage;
 import hientester.com.pages.customers.CustomersPage;
@@ -17,6 +18,8 @@ public class CustomerTest extends BaseTest {
 
   @Test
     public void testAddNewCustomer(){
+      CaptureHelper.startRecord("testAddNewCustomer");
+
       loginPage = new LoginPage();
       dashboardPage = loginPage.login("admin@example.com","123456");
       customersPage = dashboardPage.openCustomerPage();
@@ -37,6 +40,8 @@ public class CustomerTest extends BaseTest {
       customerDetailPage = customersPage.clickOnFirstRowCustomerName();
       //Check Customer Detail
       customerDetailPage.checkCustomerDetail(CUSTOMER_NAME);
+
+      //CaptureHelper.stopRecord();
 
 
   }

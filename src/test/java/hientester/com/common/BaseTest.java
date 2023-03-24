@@ -1,12 +1,16 @@
 package hientester.com.common;
 
 import hientester.com.drivers.DriverManager;
+import hientester.com.helpers.CaptureHelper;
 import hientester.com.helpers.PropertiesHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 public class BaseTest {
@@ -43,7 +47,12 @@ public class BaseTest {
     private static WebDriver initChromeDriver() {
         System.out.println("Launching Chrome browser...");
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+
+        WebDriver driver = new ChromeDriver(options);
+
         driver.manage().window().maximize();
         return driver;
     }
@@ -51,7 +60,11 @@ public class BaseTest {
     private static WebDriver initEdgeDriver() {
         System.out.println("Launching Edge browser...");
         WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--remote-allow-origins=*");
+
+        WebDriver driver = new EdgeDriver(options);
         driver.manage().window().maximize();
         return driver;
     }

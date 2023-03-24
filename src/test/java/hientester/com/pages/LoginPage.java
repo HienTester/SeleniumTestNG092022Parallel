@@ -1,5 +1,6 @@
 package hientester.com.pages;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import hientester.com.helpers.PropertiesHelper;
 import hientester.com.keywords.WebUI;
 import static hientester.com.keywords.WebUI.*;
@@ -56,6 +57,7 @@ public class LoginPage {
         //setText(inputPassword,password);
         clickOnLoginButton();
         //clickElement(buttonLogin);
+        Assert.assertTrue(verifyElementNotPresent(messageErroEmail,5),"Login không thành công");
 
         return new DashboardPage();
     }

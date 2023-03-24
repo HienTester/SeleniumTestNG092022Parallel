@@ -5,23 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13b133b-edeb-4abb-b27f-7f1fe6ee1d1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumTestNG092022Parallel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/helpers/CaptureHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/helpers/ExcelHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/Constant/ConstanData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/dataproviders/DataLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/listeners/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/TestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/TestScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/TestScreenshotOLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hientester/com/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hientester/com/keywords/WebUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suites/SuiteLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/suites/SuiteLoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/common/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/configs/configs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/configs.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configs/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/data.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,32 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTestSuccess1">
-    <configuration name="LoginTest.loginTestSuccess1" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVACORE\SeleniumJava\Class\SeleniumTestNG092022Parallel\reports\screenshots" />
+      <recent name="D:\JAVACORE\SeleniumJava\Class\SeleniumTestNG092022Parallel\reports\records" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest.loginTestTestInvalidEmail">
+    <configuration name="D:/JAVACORE/SeleniumJava/Class/SeleniumTestNG092022Parallel/src/suites/SuiteLoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG092022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hientester.com.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hientester.com.testcases" />
-      <option name="MAIN_CLASS_NAME" value="hientester.com.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="loginTestSuccess1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/suites/SuiteLoginTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTestSuccess2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG092022" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +88,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="hientester.com.testcases" />
       <option name="MAIN_CLASS_NAME" value="hientester.com.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="loginTestSuccess2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTestFromDataProviderReadExcelCustomRow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG092022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hientester.com.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hientester.com.testcases" />
+      <option name="MAIN_CLASS_NAME" value="hientester.com.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="loginTestFromDataProviderReadExcelCustomRow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,11 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hientester.com.testcases.LoginTest,loginTestFromDataProviderReadExcelCustomRow and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG092022" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="hientester.com.testcases.LoginTest,loginTestFromDataProviderReadExcelCustomRow" />
+        <pattern testClass="hientester.com.testcases.LoginTest,loginTestTestInvalidEmail" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTestSuccess1" />
         <item itemvalue="TestNG.LoginTest.loginTestTestInvalidEmail" />
-        <item itemvalue="TestNG.LoginTest.loginTestSuccess2" />
+        <item itemvalue="TestNG.D:/JAVACORE/SeleniumJava/Class/SeleniumTestNG092022Parallel/src/suites/SuiteLoginTest.xml" />
+        <item itemvalue="TestNG.LoginTest.loginTestFromDataProviderReadExcelCustomRow" />
+        <item itemvalue="TestNG.hientester.com.testcases.LoginTest,loginTestFromDataProviderReadExcelCustomRow and 1 more" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
