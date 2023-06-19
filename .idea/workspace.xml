@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13b133b-edeb-4abb-b27f-7f1fe6ee1d1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/helpers/CaptureHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/helpers/ExcelHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/Constant/ConstanData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/dataproviders/DataLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/listeners/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/TestDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/TestScreenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/TestScreenshotOLD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/reports/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/reports/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hientester/com/utils/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/LoginTest-23-03-2023 17-22-16.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/LoginTest-24-03-2023 09-08-21.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/LoginTest-24-03-2023 09-25-57.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/LoginTest-24-03-2023 09-27-54.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/loginTestFromDataProviderReadExcelCustomRow_23-03-2023 17-22-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/loginTestFromDataProviderReadExcelCustomRow_24-03-2023 09-08-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/loginTestSuccess1_24-03-2023 09-09-39.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hientester/com/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hientester/com/keywords/WebUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/suites/SuiteLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/suites/SuiteLoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/common/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hientester/com/testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configs/configs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/configs.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/datatest/CRM.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datatest/CRM.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVACORE\SeleniumJava\Class\SeleniumTestNG092022Parallel\src\main\resources" />
       <recent name="D:\JAVACORE\SeleniumJava\Class\SeleniumTestNG092022Parallel\reports\screenshots" />
       <recent name="D:\JAVACORE\SeleniumJava\Class\SeleniumTestNG092022Parallel\reports\records" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTestTestInvalidEmail">
+  <component name="RunManager" selected="TestNG.D:/JAVACORE/SeleniumJava/Class/SeleniumTestNG092022Parallel/src/suites/SuiteLoginTest.xml">
     <configuration name="D:/JAVACORE/SeleniumJava/Class/SeleniumTestNG092022Parallel/src/suites/SuiteLoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG092022" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/suites/SuiteLoginTest.xml" />
@@ -146,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTestTestInvalidEmail" />
         <item itemvalue="TestNG.D:/JAVACORE/SeleniumJava/Class/SeleniumTestNG092022Parallel/src/suites/SuiteLoginTest.xml" />
+        <item itemvalue="TestNG.LoginTest.loginTestTestInvalidEmail" />
         <item itemvalue="TestNG.LoginTest.loginTestFromDataProviderReadExcelCustomRow" />
         <item itemvalue="TestNG.hientester.com.testcases.LoginTest,loginTestFromDataProviderReadExcelCustomRow and 1 more" />
         <item itemvalue="TestNG.LoginTest" />

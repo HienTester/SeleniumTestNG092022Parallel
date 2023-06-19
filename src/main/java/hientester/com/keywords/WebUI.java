@@ -1,6 +1,9 @@
 package hientester.com.keywords;
 
+import com.aventstack.extentreports.Status;
 import hientester.com.drivers.DriverManager;
+import hientester.com.reports.ExtentTestManager;
+import hientester.com.utils.LogUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -30,7 +33,8 @@ public class WebUI {
         waitForElementVisible(by);
         Actions action = new Actions(getDriver());
         action.moveToElement(getWebElement(by));
-        logConsole("Hover on element " + by);
+        LogUtils.info("Hover on element " + by);
+        ExtentTestManager.logMessage(Status.PASS,"Hover on element  + by");
     }
 
     public static WebElement highLightElement(By by) {
@@ -47,46 +51,57 @@ public class WebUI {
         waitForElementVisible(by);
         Actions action = new Actions(getDriver());
         action.contextClick(getWebElement(by));
-        logConsole("Right click on Element " + by);
+        LogUtils.info("Right click on Element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Right click on Element " + by);
     }
 
 
     public static void openURL(String URL) {
         getDriver().get(URL);
         waitForPageLoaded();
-        logConsole("Open URL: " + URL);
+        LogUtils.info("Open URL: " + URL);
+        ExtentTestManager.logMessage(Status.PASS, "Open URL: " + URL);
     }
 
     public static String getCurrentURL() {
         waitForPageLoaded();
-        logConsole("Get Current URL: " + getDriver().getCurrentUrl());
+        LogUtils.info("Get Current URL: " + getDriver().getCurrentUrl());
+        ExtentTestManager.logMessage(Status.PASS, "Get Current URL: " + getDriver().getCurrentUrl());
         return DriverManager.getDriver().getCurrentUrl();
+
     }
 
     public static void clickElement(By by) {
         waitForElementVisible(by);
         highLightElement(by);
         getWebElement(by).click();
-        logConsole("Click on element " + by);
+        LogUtils.info("Click on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Click on element " + by);
     }
 
     public static void setText(By by, String value) {
         waitForElementVisible(by);
         getWebElement(by).sendKeys(value);
-        logConsole("Set Text " + value + " on element " + by);
+        LogUtils.info("Set Text " + value + " on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Set Text " + value + " on element " + by);
     }
 
     public static String getTextElement(By by) {
         waitForElementVisible(by);
-        logConsole("Get text of element " + by);
-        logConsole("==>Text: " + getWebElement(by).getText());
+        LogUtils.info("Get text of element " + by);
+        LogUtils.info("==>Text: " + getWebElement(by).getText());
+        ExtentTestManager.logMessage(Status.PASS, "Get text of element " + by);
+        ExtentTestManager.logMessage(Status.INFO, "==>Text: " + getWebElement(by).getText());
         return getWebElement(by).getText();
+
     }
 
     public static String getAttributeElement(By by, String attributename) {
         waitForElementVisible(by);
-        logConsole("Get attribute value of element " + by);
-        logConsole("==>Attribute value: " + getWebElement(by).getAttribute(attributename));
+        LogUtils.info("Get attribute value of element " + by);
+        LogUtils.info("==>Attribute value: " + getWebElement(by).getAttribute(attributename));
+        ExtentTestManager.logMessage(Status.PASS, "Get attribute value of element " + by);
+        ExtentTestManager.logMessage(Status.INFO, "==>Attribute value: " + getWebElement(by).getAttribute(attributename));
         return getWebElement(by).getAttribute(attributename);
     }
 

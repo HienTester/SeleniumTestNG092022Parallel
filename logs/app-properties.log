@@ -1,0 +1,122 @@
+[INFO] 28-03-2023 16:35:30 [main] LogUtils - Running test case loginTestTestInvalidEmail 
+[INFO] 28-03-2023 16:40:55 [main] LogUtils - Running test case loginTestTestInvalidEmail 
+[INFO] 28-03-2023 16:40:57 [main] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 28-03-2023 16:40:57 [main] LogUtils - Get text of element By.xpath: //h1
+[INFO] 28-03-2023 16:40:57 [main] LogUtils - ==>Text: Login
+[INFO] 28-03-2023 16:40:57 [main] LogUtils - Set Text admin@example123.com on element By.xpath: //input[@id='email']
+[INFO] 28-03-2023 16:40:58 [main] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-03-2023 16:40:59 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-03-2023 16:40:59 [main] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger']
+[INFO] 28-03-2023 16:40:59 [main] LogUtils - ==>Text: Invalid email or password
+[INFO] 31-03-2023 11:36:37 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:38 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:38 [TestNG-test=Login Test on edge-5] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:39 [TestNG-test=Login Test on edge-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:39 [TestNG-PoolService-0] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:40 [TestNG-test=Login Test on edge-5] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:40 [TestNG-test=Login Test on edge-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:40 [TestNG-PoolService-0] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:40 [TestNG-test=Login Test on edge-3] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:40 [TestNG-test=Login Test on edge-5] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:40 [TestNG-test=Login Test on edge-3] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:40 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:40 [TestNG-PoolService-1] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:40 [TestNG-test=Login Test on edge-3] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:40 [TestNG-PoolService-1] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:41 [TestNG-test=Login Test on edge-2] LogUtils - Set Text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:41 [TestNG-test=Login Test on edge-5] LogUtils - Set Text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:41 [TestNG-PoolService-0] LogUtils - Set Text admin@example123.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:41 [TestNG-PoolService-1] LogUtils - Set Text admin@example123.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:41 [TestNG-test=Login Test on edge-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:41 [TestNG-test=Login Test on edge-3] LogUtils - Set Text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:42 [TestNG-PoolService-1] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:42 [TestNG-test=Login Test on edge-5] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:42 [TestNG-PoolService-0] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:42 [TestNG-test=Login Test on edge-3] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:44 [TestNG-PoolService-0] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:46 [TestNG-test=Login Test on edge-3] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:46 [TestNG-PoolService-0] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger']
+[INFO] 31-03-2023 11:36:47 [TestNG-PoolService-0] LogUtils - ==>Text: Invalid email or password
+[INFO] 31-03-2023 11:36:48 [TestNG-PoolService-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:48 [TestNG-test=Login Test on edge-4] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:48 [TestNG-PoolService-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:48 [TestNG-test=Login Test on edge-4] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:36:48 [TestNG-PoolService-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:48 [TestNG-test=Login Test on edge-4] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:36:49 [TestNG-PoolService-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:49 [TestNG-PoolService-1] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger']
+[INFO] 31-03-2023 11:36:49 [TestNG-test=Login Test on edge-4] LogUtils - Set Text teamleader@mailinator.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:49 [TestNG-PoolService-1] LogUtils - ==>Text: Invalid email or password
+[INFO] 31-03-2023 11:36:50 [TestNG-PoolService-2] LogUtils - Set Text admin@example123.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:36:50 [TestNG-test=Login Test on edge-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:50 [TestNG-test=Login Test on edge-4] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:50 [TestNG-test=Login Test on edge-5] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:50 [TestNG-PoolService-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:36:52 [TestNG-PoolService-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:52 [TestNG-test=Login Test on edge-4] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:36:52 [TestNG-PoolService-2] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger']
+[INFO] 31-03-2023 11:36:52 [TestNG-PoolService-2] LogUtils - ==>Text: Invalid email or password
+[INFO] 31-03-2023 11:36:58 [TestNG-test=Login Test on edge-4] LogUtils - Running test case loginTestTestInvalidEmail 
+[INFO] 31-03-2023 11:36:59 [TestNG-test=Login Test on edge-4] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:36:59 [TestNG-test=Login Test on edge-4] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:37:00 [TestNG-test=Login Test on edge-4] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-4] LogUtils - Set Text admin@example123.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-3] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-3] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-3] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-4] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-3] LogUtils - Set Text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:37:01 [TestNG-test=Login Test on edge-3] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:37:07 [TestNG-test=Login Test on edge-4] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:37:07 [TestNG-test=Login Test on edge-4] LogUtils - Get text of element By.xpath: //div[@class='text-center alert alert-danger']
+[INFO] 31-03-2023 11:37:07 [TestNG-test=Login Test on edge-4] LogUtils - ==>Text: Invalid email or password
+[INFO] 31-03-2023 11:37:15 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:37:15 [TestNG-test=Login Test on edge-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:37:15 [TestNG-test=Login Test on edge-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:37:15 [TestNG-test=Login Test on edge-2] LogUtils - Set Text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:37:15 [TestNG-test=Login Test on edge-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:37:15 [TestNG-test=Login Test on edge-3] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:37:17 [TestNG-test=Login Test on edge-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:37:28 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:37:28 [TestNG-test=Login Test on edge-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:37:28 [TestNG-test=Login Test on edge-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:37:28 [TestNG-test=Login Test on edge-2] LogUtils - Set Text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:37:29 [TestNG-test=Login Test on edge-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:37:33 [TestNG-test=Login Test on edge-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:37:41 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:37:41 [TestNG-test=Login Test on edge-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:37:41 [TestNG-test=Login Test on edge-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:37:42 [TestNG-test=Login Test on edge-2] LogUtils - Set Text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:37:42 [TestNG-test=Login Test on edge-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:37:51 [TestNG-test=Login Test on edge-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:37:54 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:37:54 [TestNG-test=Login Test on edge-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:37:55 [TestNG-test=Login Test on edge-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:37:55 [TestNG-test=Login Test on edge-2] LogUtils - Set Text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:37:55 [TestNG-test=Login Test on edge-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:38:06 [TestNG-test=Login Test on edge-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 11:38:15 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 11:38:15 [TestNG-test=Login Test on edge-2] LogUtils - Get text of element By.xpath: //h1
+[INFO] 31-03-2023 11:38:15 [TestNG-test=Login Test on edge-2] LogUtils - ==>Text: Login
+[INFO] 31-03-2023 11:38:15 [TestNG-test=Login Test on edge-2] LogUtils - Set Text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 31-03-2023 11:38:15 [TestNG-test=Login Test on edge-2] LogUtils - Set Text 123456 on element By.xpath: //input[@id='password']
+[INFO] 31-03-2023 11:38:25 [TestNG-test=Login Test on edge-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 31-03-2023 15:34:52 [TestNG-test=Login Test on edge-4] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 15:35:26 [TestNG-test=Login Test on edge-5] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 15:35:34 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 15:35:34 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:16 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:25 [TestNG-test=Login Test on edge-5] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:26 [TestNG-test=Login Test on edge-4] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:27 [TestNG-PoolService-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:28 [TestNG-test=Login Test on edge-3] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:28 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:29 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:33 [TestNG-test=Login Test on edge-5] LogUtils - Running test case loginTestTestInvalidEmail 
+[INFO] 31-03-2023 16:25:42 [TestNG-test=Login Test on edge-5] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:46 [TestNG-test=Login Test on edge-3] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:46 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:51 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:25:56 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:26:00 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin
+[INFO] 31-03-2023 16:26:05 [TestNG-test=Login Test on edge-2] LogUtils - Open URL: https://crm.anhtester.com/admin

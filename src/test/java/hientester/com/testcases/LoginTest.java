@@ -9,6 +9,7 @@ import hientester.com.helpers.PropertiesHelper;
 import hientester.com.keywords.WebUI;
 import hientester.com.listeners.TestListener;
 import hientester.com.pages.LoginPage;
+import hientester.com.utils.LogUtils;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -22,15 +23,15 @@ public class LoginTest extends BaseTest {
 
     LoginPage loginPage;
 
-    @BeforeClass
-    public void setupClass(){
-        CaptureHelper.startRecord("LoginTest");
-    }
-
-    @AfterClass
-    public void tearDownClass(){
-        CaptureHelper.stopRecord();
-    }
+//    @BeforeClass
+//    public void setupClass(){
+//        CaptureHelper.startRecord("LoginTest");
+//    }
+//
+//    @AfterClass
+//    public void tearDownClass(){
+//        CaptureHelper.stopRecord();
+//    }
 
 
     @Test
@@ -82,6 +83,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginTestTestInvalidEmail() {
+        LogUtils.info("Running test case loginTestTestInvalidEmail ");
         loginPage = new LoginPage();
         loginPage.loginInvalidEmail("admin@example123.com", "123456");
 
